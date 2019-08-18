@@ -1,0 +1,200 @@
+body {
+  text-align: center;
+  background-image:  url('https://cdn.inspirationhut.net/wp-content/uploads/2013/05/201.png')
+  /* background-color: rgba(243, 191, 243, 0.596) */
+}
+
+.all {
+  color: rgb(58, 51, 51);
+  font-size: bolder 15px
+}
+
+.y {
+  color: rgb(0, 0, 0);
+  
+}
+
+.alltrue {
+  color: rgb(36, 187, 44)
+}
+
+.allfalse {
+  color: rgb(255, 2, 2)
+}
+
+.balance {
+  color: rgb(36, 187, 44);
+  font-size: 50px
+}
+
+.nobalance {
+  color: rgb(255, 2, 2);
+  font-size: 50px
+}
+
+.error {
+  background-color: black;
+  color: brown
+}
+
+.myInfocon {
+  text-align: center;
+  margin-left: 610px
+}
+
+input {
+  width: 25%;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid rgb(253, 253, 253);
+  ;
+  background-color: rgba(219, 86, 208, 0.418);
+  font-size: 20px;
+}
+
+button { 
+  margin: 100px;
+  width: 10%;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  ;
+  background-color: rgba(219, 86, 208, 0.418);
+  font-size: 20px;
+}
+
+button::placeholder {
+  color: wheat
+}
+
+input::placeholder {
+  color: rgb(255, 255, 255)
+}
+
+button:hover {
+  margin: 100px;
+  width: 10%;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  ;
+  background-color: rgba(0, 0, 0, 0.418);
+  font-size: 20px;
+}
+
+input:hover {
+  width: 25%;
+  margin-bottom: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid rgb(253, 253, 253);
+  ;
+  background-color: rgba(0, 0, 0, 0.418);
+  font-size: 20px;
+}
+
+
+
+.img{
+  width: 60px;
+  height: 60px;
+}
+
+.alert{position: absolute;
+  left: 25vw;
+  /* top:80vh; */
+  text-align: center;
+  font-size: 80px;
+  width: 700px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.726);
+  animation: blink 1.5s linear infinite;
+  color: aliceblue;
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}
+  }
+
+  .x{
+    color: tomato;
+    font-size: 30px;
+    float: right;
+  }
+
+
+.reports{
+  margin-left: 400px
+}
+
+.calculator{
+  float: left;
+  position: absolute;
+  font-size: 30px;
+  border-top: 5px dotted #FA0000;
+  border-right: 5px dotted #FAE12D;
+  border-bottom: 5px dotted #36BF3C;
+  border-left: 5px dotted #22C9FF;
+}
+  .fa-exchange-alt{
+    font-size:37px
+  }
+  
+  .fa-exchange-alt:active {
+    transform: translateY(4px);
+  }
+  .Deposit:active {
+    transform: translateY(4px);
+  }
+
+  .x:active {
+    transform: translateY(4px);
+  }
+  .myreport:active {
+    transform: translateY(4px);
+  }
+
+
+  .Withdraw:active {
+    transform: translateY(4px);
+  }
+
+
+
+  .pie{
+    position: absolute;
+    top: 50vh;
+    left: 7vw;
+  }
+
+  .chart{
+    position: absolute;
+    right: 0;
+  }
+
+  .buttonshow{
+    position: absolute;
+    left:0
+  }
+
+  .xs{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #FA0000
+  }
+
+  .xs:active {
+    transform: translateY(4px);
+  }
+
+  .buttonshow:active{transform: translateY(4px);}
